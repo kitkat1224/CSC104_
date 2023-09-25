@@ -1,0 +1,51 @@
+
+/*In the body text I changed the margins of the page, set the font family, and changed the background color*/
+body{
+    margin: 25px 50px 75px 100px;
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*This shows the change in border radius to make image round and also centering it to the page*/
+img{
+    border-radius: 50%;
+    display:block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+}
+
+h1{
+    /*changed text alignment*/
+    text-align: center;
+    color: maroon;
+    font-weight: bold;
+    font-size: 30pt;
+    /*changed the header to Georgia font*/
+    font-family: Georgia;
+}
+
+h2{
+    /*changed text alignment*/
+    text-align: center;
+    color: maroon;
+    font-weight: bold;
+    font-size: 24pt;
+    /*changed the header to Times New Roman font*/
+    font-family: 'Times New Roman';
+}
+
+h3{
+    color: brown;
+    font-weight: bold;
+    font-size: 20pt;
+    /*changed the header to Times New Roman font*/
+    font-family: 'Times New Roman';
+}
+
+p{
+    text-indent: 8%;
+    color: saddlebrown;
+    font-size: 18pt;
+   /*changed the header to a plain serif font so the walls of text are easy to read*/
+    font-family: serif;
+}
