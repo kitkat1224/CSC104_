@@ -1,9 +1,10 @@
 
+/*This is how I emplimented a custom font into the document, did this in the stylesheet so it is easier to change later down the road if needed.*/
 @font-face {
     font-family: Franchise;
     src: url(franchise_2.zip);
 }
-
+/*This lists the font family*/
 div{
     font-family: Franchise;
 }
@@ -11,7 +12,7 @@ div{
 body{
     margin: 25px 50px 75px 100px;
 }
-
+/*Sets the border, display, margins, and width of all images in document so they are all the same size and cohesive.*/
 img{
     border-radius: 8%;
     display:block;
@@ -35,6 +36,7 @@ h2{
     color: rgb(184, 52, 92);
     font-weight: bold;
     font-size: 45pt; 
+    /*Changed the font family again here to a different custom font, this font being named "Vintage Times*/
     font-family: Vintage Times;
     src: url(vintage_times.zip);
 }
@@ -43,10 +45,11 @@ h3{
     color: rgb(184, 52, 92);
     font-weight: bold;
     font-size: 35pt; 
+    /*Changed the font family again here to a different custom font, this font being named "Vintage Times*/
     font-family: Vintage Times;
     src: url(vintage_times.zip);
 }
-
+/*This allows for the transparent background color around the text so they are easier to see.*/
 .content{
     background-color: rgba(6, 1, 17, 0.5);
     padding: 20px;
