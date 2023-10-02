@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: Franchise;
+    src: url(franchise_2.zip);
+}
+
+div{
+    font-family: Franchise;
+}
+
+body{
+    margin: 25px 50px 75px 100px;
+}
+
+img{
+    border-radius: 8%;
+    display:block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h1{
+    /*changed text alignment*/
+    text-align: center;
+    color:rgb(128, 204, 248);
+    font-weight: bold;
+    font-size: 65pt;
+}
+
+h2{
+    /*changed text alignment*/
+    text-align: center;
+    color: rgb(184, 52, 92);
+    font-weight: bold;
+    font-size: 45pt; 
+    font-family: Vintage Times;
+    src: url(vintage_times.zip);
+}
+
+h3{
+    color: rgb(184, 52, 92);
+    font-weight: bold;
+    font-size: 35pt; 
+    font-family: Vintage Times;
+    src: url(vintage_times.zip);
+}
+
+.content{
+    background-color: rgba(6, 1, 17, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p{
+    text-indent: 8%;
+    color: rgb(197, 197, 230);
+    font-size: 25pt;
+    font-family: sans-serif;
+}
